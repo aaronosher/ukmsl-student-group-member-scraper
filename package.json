@@ -1,0 +1,14 @@
+{
+  "name": "ukmsl-student-group-member-scraper",
+  "version": "0.0.1",
+  "description": "Web Scraper for UKSML Studnet Group Member Lists",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "ukmsl"
+  ],
+  "author": "",
+  "license": "MIT"
+}
