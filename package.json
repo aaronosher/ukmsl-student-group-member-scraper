@@ -1,6 +1,6 @@
 {
   "name": "ukmsl-student-group-member-scraper",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "Web Scraper for UKSML Studnet Group Member Lists",
   "main": "index.js",
   "scripts": {
@@ -9,12 +9,21 @@
   "keywords": [
     "ukmsl"
   ],
-  "author": "",
+  "author": "Aaron Osher <aaron@aaronosher.io>",
   "license": "MIT",
   "dependencies": {
     "cheerio": "^1.0.0-rc.2",
     "request": "^2.88.0",
     "request-promise-native": "^1.0.7",
     "tough-cookie": "^2.3.4"
-  }
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aaronosher/ukmsl-student-group-member-scraper.git"
+  },
+  "bugs": {
+    "url": "https://github.com/aaronosher/ukmsl-student-group-member-scraper/issues"
+  },
+  "homepage": "https://github.com/aaronosher/ukmsl-student-group-member-scraper#readme"
 }
