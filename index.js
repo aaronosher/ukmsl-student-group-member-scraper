@@ -7,7 +7,7 @@ const cheerio = require('cheerio');
 const rp = require('request-promise-native');
 const tough = require('tough-cookie');
 
-module.exports = config => {
+module.exports.default = config => {
 
   const url = `${config.baseUrl}/organisation/memberlist/${config.groupId}/`;
 

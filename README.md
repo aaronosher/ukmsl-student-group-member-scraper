@@ -19,8 +19,8 @@ Returns an array of objects that looks like the following:
 Using the scraper requires some configuration.
 
 ```JavaScript
-const fetchMembers = require('ukmsl-student-group-member-scraper');
-const config = require('./config');
+import fetchMembers from 'ukmsl-student-group-member-scraper';
+import config from './config';
 
 fetchMembers(config)
   .then(members => /* do something */)

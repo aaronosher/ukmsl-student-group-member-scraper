@@ -6,7 +6,7 @@
 const config = require('./config');
 const formBody = require('./formBody');
 
-const fetchMembers = require('./index');
+const fetchMembers = require('./index').default;
 
 const myConfig = config;
 myConfig.formBody = formBody;
