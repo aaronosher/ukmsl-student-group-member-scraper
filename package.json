@@ -4,11 +4,17 @@
   "description": "Web Scraper for UKSML Studnet Group Member Lists",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node test.js"
   },
   "keywords": [
     "ukmsl"
   ],
   "author": "",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.2",
+    "request": "^2.88.0",
+    "request-promise-native": "^1.0.7",
+    "tough-cookie": "^2.3.4"
+  }
 }
