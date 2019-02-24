@@ -1,3 +1,8 @@
+// Copyright (c) 2019 Aaron Osher
+// 
+// This software is released under the MIT License.
+// https://opensource.org/licenses/MIT
+
 const cheerio = require('cheerio');
 const rp = require('request-promise-native');
 const tough = require('tough-cookie');
