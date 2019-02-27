@@ -1,6 +1,6 @@
 {
   "name": "ukmsl-student-group-member-scraper",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "description": "Web Scraper for UKSML Studnet Group Member Lists",
   "main": "index.js",
   "scripts": {

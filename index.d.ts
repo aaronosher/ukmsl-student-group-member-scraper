@@ -2,18 +2,18 @@ declare module 'ukmsl-student-group-member-scraper' {
   function fetchMembers(config: any): Promise<UKMSLMember[]>;
 
   interface UKMSLConfig {
-    baseUrl: String,
-    domain: String,
+    baseUrl: string,
+    domain: string,
     groupId: number,
-    ASPNET_SessionId: String,
-    ASPXAUTH: String,
-    AntiXsrfToken: String,
-    formBody: String
+    ASPNET_SessionId: string,
+    ASPXAUTH: string,
+    AntiXsrfToken: string,
+    formBody: string
   }
 
   interface UKMSLMember {
-    name: String,
-    id: String,
+    name: string,
+    id: string,
   }
 
   export default fetchMembers;
