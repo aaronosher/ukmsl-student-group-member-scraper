@@ -4,13 +4,11 @@
 // https://opensource.org/licenses/MIT
 
 const config = require('./config');
-const formBody = require('./formBody');
 
 const fetchMembers = require('./index').default;
 
 const myConfig = config;
-myConfig.formBody = formBody;
 
 fetchMembers(myConfig)
-  .then(members => console.log(members))
-  .catch(err => console.error(err));
+  .then(console.log)
+  .catch(console.error);
